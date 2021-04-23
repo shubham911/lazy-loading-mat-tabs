@@ -1,0 +1,22 @@
+.tagGroup{
+    margin-top: 1%;
+    max-width: 100%;
+  }
+  
+  #navstepstext{
+    font-weight: bold; 
+    color: black;
+
+  }
+
+  :host ::ng-deep .mat-tab-link{
+    font-weight: bold;
+    width: 20%;
+    background-color:	#D0D0D0;
+    border-right: 1px solid white;
+    font-family: Noto Sans;
+
+  }
+  :host ::ng-deep .mat-tab-label-active{  
+    background-color:	#ffd200;
+  }

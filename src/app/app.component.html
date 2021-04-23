@@ -1,0 +1,9 @@
+<app-header></app-header>
+<nav mat-tab-nav-bar class="tagGroup" >
+  <a mat-tab-link *ngFor="let tabItem of tabs" [routerLink]="tabItem.route" routerLinkActive #rla="routerLinkActive"
+    [active]="rla.isActive">
+    <span id="navstepstext">{{tabItem.label}}</span>    
+  </a>
+</nav>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

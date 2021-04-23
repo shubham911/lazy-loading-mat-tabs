@@ -1,0 +1,11 @@
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #CDCDCD;
+    font-weight: bold;
+    color: rgba(65,65,65,1);
+    margin-top: 1%;
+  }
